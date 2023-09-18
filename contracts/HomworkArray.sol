@@ -8,17 +8,17 @@ contract HomworkArray {
 
     // 함수
     function setDynamic(uint size) public {
-        // 배열을 생성
+        // 배열 생성
         dynamic = new uint[](size);
 
-        // 배열에 값을 설정
+        // 배열 값 설정
         for (uint i = 0; i < size; i++) {
             dynamic[i] = i;
         }
     }
 
     function getDynamic() public view returns (uint[] memory) {
-        // 배열을 반환
+        // 배열 반환
         return dynamic;
     }
 }
