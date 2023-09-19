@@ -10,7 +10,7 @@ contract ImportContract {
         return viewName.name();
     }
 
-    function addFunction(uint x, uint y)  pure public returns (uint){
+    function addFunction(uint x, uint y) pure public returns (uint){
         return add(x, y);
     }
 }
