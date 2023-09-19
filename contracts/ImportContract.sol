@@ -6,7 +6,7 @@ import "./Add.sol";
 contract ImportContract {
     Name public viewName = new Name();
 
-    function viewNameFunction()  public view returns (string memory){
+    function viewNameFunction() public view returns (string memory){
         return viewName.name();
     }
 
