@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: onther
-pragma solidity 0.8.19;
+pragma solidity ^0.8.19;
 
 contract Name {
     string public name = "Onther";

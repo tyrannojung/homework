@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.18;
+pragma solidity ^0.8.19;
 
 contract HomworkContract {
     //uint256 타입의 변수 선언
