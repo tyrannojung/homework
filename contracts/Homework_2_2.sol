@@ -17,7 +17,6 @@ contract ContractA {
         ContractB contractb = new ContractB();
         return contractb.getContractA();
     }
-
 }
 
 /// @notice contract B
