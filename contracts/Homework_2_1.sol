@@ -45,6 +45,7 @@ contract DerivedContract is Visbility {
     struct HomeworkStruct {
         uint id;
         string name;
+        string desc;
     }
 
     function callInternalFunction() public pure returns(string memory) {
@@ -52,6 +53,6 @@ contract DerivedContract is Visbility {
     }
 
     function getStruct() public pure returns (HomeworkStruct memory) {
-        return HomeworkStruct(1, "DawoonJung");
+        return HomeworkStruct(1, "DawoonJung", "student");
     }
 }
